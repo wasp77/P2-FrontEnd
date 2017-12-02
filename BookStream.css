@@ -27,6 +27,10 @@ li a:hover {
   background-color: black;
 }
 
+.active {
+  background-color: green;
+}
+
 div.output {
   column-count: 3;
   column-gap: 40px;

@@ -7,11 +7,11 @@
     <title>Book Stream</title>
 </head>
 <body>
-  <!--<ul class="nav">
-    <li><a href="#allbooks">All Books</a></li>
+  <ul class="nav">
+    <li><a class="active" href="#allbooks">All Books</a></li>
     <li><a href="#bestsellers">Best Sellers</a></li>
     <li><a href="#reviews">Reviews</a></li>
-  </ul>-->
+  </ul>
   <?php include 'BookStream.php';?>
 </body>
 </html>
