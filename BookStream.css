@@ -1,0 +1,37 @@
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+div.output {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: grey;
+  column-width: 100px;
+}
