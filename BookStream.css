@@ -11,6 +11,7 @@ ul.nav {
 
 ul.nav li {
   float: left;
+  margin: 0;
 }
 
 ul.nav li a {
@@ -24,7 +25,7 @@ ul.nav li a {
 }
 
 li a:hover {
-  background-color: grey;
+  text-decoration: underline;
 }
 
 .active {
@@ -40,7 +41,12 @@ ul.output {
   column-rule-color: grey;
   column-width: 100px;
   vertical-align: middle;
-  padding: 400px;
+  padding: 250px;
+  text-align: center;
+}
+
+ul li {
+  margin: 1em 0;
 }
 
 ul li a {
@@ -57,7 +63,8 @@ ul.popularOutput {
   column-rule-color: grey;
   column-width: 100px;
   vertical-align: middle;
-  padding: 400px;
+  padding: 300px;
+  text-align: center;
 }
 
 div.bookOuput {
@@ -76,6 +83,31 @@ div.bookOuput p {
   padding-left: 700px;
 }
 
+div.reviews {
+  text-align: center;
+}
+
 ul.authorOutput {
   padding-top: 50px;
+}
+
+h1.purchaseOutput {
+  text-align: center;
+  padding-top: 50px;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+}
+
+img.purchaseImg {
+  width: 300px;
+  height: 400px;
+}
+
+form.buy input {
+  width: 75px;
+  height: 25px;
+  font-size: 15px;
 }
