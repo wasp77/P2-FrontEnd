@@ -1,4 +1,5 @@
 
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -7,15 +8,15 @@
 </head>
 <body>
   <ul class="nav">
-    <li><a class="active" href="index.php">All Books</a></li>
-    <li><a href="Popular.php">Best Sellers</a></li>
+    <li><a href="index.php">All Books</a></li>
+    <li><a class="active" href="Popular.php">Best Sellers</a></li>
     <li><a href="Author.php">Authors</a></li>
   </ul>
-  <ul class="output">
+  <ul class="popularOutput">
     <?php
       include 'mysqlFunctions.php';
       $conn = dbConnect();
-      $result = getAllBooks($conn);
+      $result = getPopular($conn);
       while($row = mysqli_fetch_assoc($result)) {
     ?>
       <li><a href="Book.php?book_title=<?php echo $row['title']; ?>">
